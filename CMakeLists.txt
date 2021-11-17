@@ -21,7 +21,7 @@ file(GLOB IMGUI_SOURCES
 	${TABLES_SOURCE}
 )
 
-set(IMGUI_STATIC "no" CACHE STRING "Build as a static library")
+set(IMGUI_STATIC "yes" CACHE STRING "Build as a static library")
 set(IMGUI_FREETYPE "no" CACHE STRING "Build with freetype library")
 set(IMGUI_LIBRARIES )
 
